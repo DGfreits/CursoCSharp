@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DG\\source\\repos\\DGfreits\\CursoCSharp\\CursoCSharp.csproj",
+      "projectUniqueName": "C:\\Users\\DG\\source\\repos\\CursoCSharp\\CursoCSharp.csproj",
       "projectName": "CursoCSharp",
-      "projectPath": "C:\\Users\\DG\\source\\repos\\DGfreits\\CursoCSharp\\CursoCSharp.csproj",
+      "projectPath": "C:\\Users\\DG\\source\\repos\\CursoCSharp\\CursoCSharp.csproj",
       "packagesPath": "C:\\Users\\DG\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DG\\source\\repos\\DGfreits\\CursoCSharp\\obj\\",
+      "outputPath": "C:\\Users\\DG\\source\\repos\\CursoCSharp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
