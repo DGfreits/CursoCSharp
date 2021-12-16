@@ -14,6 +14,9 @@ namespace CursoCSharp {
                 {"Interpolação de String - Fudamentos", Interpolacao.Executar},
                 {"Notação Ponto - Fudamentos", NotacaoPonto.Executar},
                 {"Lendo Dados do Console - Fudamentos", LendoDados.Executar},
+                {"Formatando Números - Fudamentos", FormatandoNumeros.Executar},
+                {"Conversões - Fudamentos", Conversoes.Executar},
+                {"Operadores Aritiméticos - Fudamentos", OperadoresAritimeticos.Executar},
             });
              
             central.SelecionarEExecutar();
