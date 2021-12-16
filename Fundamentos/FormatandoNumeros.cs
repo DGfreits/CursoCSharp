@@ -12,7 +12,7 @@ namespace CursoCSharp.Fundamentos {
             /* Funções para formatação do número
              *
              * "F" modifica as casas decimais
-             * "C" transforma em valor monetario
+             * "C" transforma em valor monetario 
              * "P" valor percentual %
              * "#.##" tipo de formatção mais especifica
              * "D10" quantos 0 devem aparecer a esquerda

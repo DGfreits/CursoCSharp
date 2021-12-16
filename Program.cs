@@ -17,6 +17,8 @@ namespace CursoCSharp {
                 {"Formatando Números - Fudamentos", FormatandoNumeros.Executar},
                 {"Conversões - Fudamentos", Conversoes.Executar},
                 {"Operadores Aritiméticos - Fudamentos", OperadoresAritimeticos.Executar},
+                {"Operadores Relacionais - Fudamentos", OperadoresRelacionais.Executar},
+                {"Operadores Lógicos #1 - Fudamentos", OperadoresLogicos1.Executar},
             });
              
             central.SelecionarEExecutar();

@@ -12,7 +12,7 @@ namespace CursoCSharp.Fundamentos {
             var imposto = 355;
             var desconto = 0.1;
 
-            double total = preco + imposto;
+            double total = preco + imposto; 
             var totalComDesconto = total - total * desconto;
             Console.WriteLine("O preço final é {0}", totalComDesconto);
 

@@ -10,7 +10,7 @@ namespace CursoCSharp.Fundamentos {
         public static void Executar() {
 
             // A entrada é sempre como STRING. Então quando for fazer uma entrada tem que converter
-
+             
             Console.Write("Qual é o seu nome? ");
             string nome = Console.ReadLine();
 

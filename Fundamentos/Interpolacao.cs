@@ -9,7 +9,7 @@ namespace CursoCSharp.Fundamentos {
         public static void Executar() {
             string nome = "Notebook Gamer";
             string marca = "Dell";
-            double valor = 5000.00;
+            double valor = 5000.00; 
 
             Console.WriteLine("O " + nome + " da marca " + marca + " custa: " + valor);
 

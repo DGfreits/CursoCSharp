@@ -15,7 +15,7 @@ namespace CursoCSharp.Fundamentos {
             raio = 5.5;
             // PI = 3.234; NÃO ANTERA PQ ESSA VAIÁVEL É UMA CONSTANTE "const"
 
-            double area = PI * raio * raio;
+            double area = PI * raio * raio; 
             Console.WriteLine(area);
             Console.WriteLine("Área é " + area);
 

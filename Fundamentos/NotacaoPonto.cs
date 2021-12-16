@@ -11,7 +11,7 @@ namespace CursoCSharp.Fundamentos {
 
             Console.WriteLine(saudacao);
 
-            Console.WriteLine("Teste".Length);
+            Console.WriteLine("Teste".Length); 
 
             string valorImportante = null;
 
