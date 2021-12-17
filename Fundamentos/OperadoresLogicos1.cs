@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CursoCSharp.Fundamentos {
     internal class OperadoresLogicos1 {
-        public static void Executar() {
+        public static void Executar() { 
             var executouOTrabalho1 = true;
             var executouOTrabalho2 = false;
 

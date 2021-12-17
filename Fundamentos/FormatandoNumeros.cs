@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CursoCSharp.Fundamentos {
     internal class FormatandoNumeros {
-        public static void Executar() {
+        public static void Executar() { 
 
             /* Funções para formatação do número
              *

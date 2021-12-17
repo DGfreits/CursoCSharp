@@ -10,7 +10,7 @@ namespace CursoCSharp.Fundamentos {
             var saudacao = "Olá".ToUpper().Insert(3, " World!").Replace("World!", "Mundo");
 
             Console.WriteLine(saudacao);
-
+             
             Console.WriteLine("Teste".Length); 
 
             string valorImportante = null;

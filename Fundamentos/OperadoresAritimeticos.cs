@@ -8,7 +8,7 @@ namespace CursoCSharp.Fundamentos {
     internal class OperadoresAritimeticos {
         public static void Executar() {
             // Preço com desconto
-            var preco = 1000.0;
+            var preco = 1000.0; 
             var imposto = 355;
             var desconto = 0.1;
 

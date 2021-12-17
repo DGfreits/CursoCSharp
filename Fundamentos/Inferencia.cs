@@ -8,7 +8,7 @@ namespace CursoCSharp.Fundamentos {
      class Inferencia {
         public static void Executar() {
             var nome = "Douglas";
-            // nome = 123;  
+            // nome = 123;   
 
             // var idade;
             var idade = 25;

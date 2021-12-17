@@ -11,7 +11,7 @@ namespace CursoCSharp.Fundamentos {
 
             // A entrada é sempre como STRING. Então quando for fazer uma entrada tem que converter
              
-            Console.Write("Qual é o seu nome? ");
+            Console.Write("Qual é o seu nome? "); 
             string nome = Console.ReadLine();
 
             Console.Write("Qual sua idade? ");

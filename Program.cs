@@ -19,6 +19,9 @@ namespace CursoCSharp {
                 {"Operadores Aritiméticos - Fudamentos", OperadoresAritimeticos.Executar},
                 {"Operadores Relacionais - Fudamentos", OperadoresRelacionais.Executar},
                 {"Operadores Lógicos #1 - Fudamentos", OperadoresLogicos1.Executar},
+                {"Operadores de Atribuição - Fudamentos", OperadorAtribuicao.Executar},
+                {"Operadores Unários - Fudamentos", OperadoresUnarios.Executar},
+                {"Operador Ternári - Fudamentos", OperadorTernario.Executar},
             });
              
             central.SelecionarEExecutar();

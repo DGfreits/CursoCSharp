@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace CursoCSharp.Fundamentos {
     class VariaveisEConstantes {
         public static void Executar() {
-
+             
             // area da circunferencia
             double raio = 4.5;
             const double PI = 3.14;
