@@ -13,7 +13,7 @@ namespace CursoCSharp.ClassesEMetodos {
         }
 
         // Método de instância!!!
-        public int Somar(int a, int b) { 
+        public int Somar(int a, int b) {
             return a + b;
         }
     }
