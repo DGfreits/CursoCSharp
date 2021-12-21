@@ -45,6 +45,12 @@ namespace CursoCSharp {
                 {"Construtores - Calasses e Métodos", Construtores.Executar},
                 {"Métodos com Retorno - Calasses e Métodos", MetodosComRetorno.Executar},
                 {"Método Statico - Calasses e Métodos", MetodosStaticos.Executar},
+                {"Atributos Staticos - Calasses e Métodos", AtributosEstaticos.Executar},
+                {"Desafio Atributos - Calasses e Métodos", DesafioAtributos.Executar},
+                {"Parâmetros Variáveis - Calasses e Métodos", Params.Executar},
+                {"Parâmetros Nomeados - Calasses e Métodos", ParametrosNomeados.Executar},
+                {"Get and Set - Calasses e Métodos", GetSet.Executar},
+                {"Props - Calasses e Métodos", Props.Executar},
             });
              
             central.SelecionarEExecutar();
