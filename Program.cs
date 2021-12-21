@@ -43,6 +43,8 @@ namespace CursoCSharp {
                 // CLASSE E MÉTODOS 
                 {"Membros - Calasses e Métodos", Membros.Executar},
                 {"Construtores - Calasses e Métodos", Construtores.Executar},
+                {"Métodos com Retorno - Calasses e Métodos", MetodosComRetorno.Executar},
+                {"Método Statico - Calasses e Métodos", MetodosStaticos.Executar},
             });
              
             central.SelecionarEExecutar();
