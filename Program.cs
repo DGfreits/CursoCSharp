@@ -54,6 +54,8 @@ namespace CursoCSharp {
                 {"Readonly - Calasses e Métodos", Readonly.Executar},
                 {"Exemplo Enum - Calasses e Métodos", ExemploEnum.Executar},
                 {"Struct - Calasses e Métodos", ExemploStruct.Executar},
+                {"Struct vs Classe - Calasses e Métodos", StructVsClasse.Executar},
+                {"Valor vs Referência - Calasses e Métodos", ValorVsReferencia.Executar},
             });
              
             central.SelecionarEExecutar();
