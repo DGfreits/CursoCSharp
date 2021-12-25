@@ -51,6 +51,9 @@ namespace CursoCSharp {
                 {"Parâmetros Nomeados - Calasses e Métodos", ParametrosNomeados.Executar},
                 {"Get and Set - Calasses e Métodos", GetSet.Executar},
                 {"Props - Calasses e Métodos", Props.Executar},
+                {"Readonly - Calasses e Métodos", Readonly.Executar},
+                {"Exemplo Enum - Calasses e Métodos", ExemploEnum.Executar},
+                {"Struct - Calasses e Métodos", ExemploStruct.Executar},
             });
              
             central.SelecionarEExecutar();
