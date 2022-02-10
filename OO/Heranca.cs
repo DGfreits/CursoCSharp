@@ -28,10 +28,10 @@ namespace CursoCSharp.OO {
             return VelocidadeAtual;
         }
         
-        public int Acelerar() {
+        public virtual int Acelerar() {
             return AlterarVelocidade(5);
         }
-        public int Freiar() {
+        public int Frear() {
             return AlterarVelocidade(-5);
         }
 
@@ -44,6 +44,16 @@ namespace CursoCSharp.OO {
             public Ferrari() : base(350) { 
             
             }
+
+            public override int Acelerar() {
+                return AlterarVelocidade(15);
+            }
+
+            // Esconde o metodo pai
+
+            public new int Frear() {
+                return AlterarVelocidade(-15);
+            }
         }
 
     }
@@ -53,17 +63,37 @@ namespace CursoCSharp.OO {
             Uno carro1 = new Uno();
             Console.WriteLine(carro1.Acelerar());
             Console.WriteLine(carro1.Acelerar());
-            Console.WriteLine(carro1.Freiar());
-            Console.WriteLine(carro1.Freiar());
-            Console.WriteLine(carro1.Freiar());
+            Console.WriteLine(carro1.Frear());
+            Console.WriteLine(carro1.Frear());
+            Console.WriteLine(carro1.Frear());
 
             Console.WriteLine("Ferrari....");
             Ferrari carro2 = new Ferrari();
             Console.WriteLine(carro2.Acelerar());
             Console.WriteLine(carro2.Acelerar());
-            Console.WriteLine(carro2.Freiar());
-            Console.WriteLine(carro2.Freiar());
-            Console.WriteLine(carro2.Freiar());
+            Console.WriteLine(carro2.Frear());
+            Console.WriteLine(carro2.Frear());
+            Console.WriteLine(carro2.Frear());
+
+
+            // POLIMORFISMO
+
+            Console.WriteLine("Ferrari com tipo Caroo....");
+            Carro carro3 = new Ferrari();
+            Console.WriteLine(carro3.Acelerar());
+            Console.WriteLine(carro3.Acelerar());
+            Console.WriteLine(carro3.Frear());
+            Console.WriteLine(carro3.Frear());
+            Console.WriteLine(carro3.Frear());
+
+            Console.WriteLine("Uno com tipo Caroo....");
+            carro3 = new Uno();
+            Console.WriteLine(carro3.Acelerar());
+            Console.WriteLine(carro3.Acelerar());
+            Console.WriteLine(carro3.Frear());
+            Console.WriteLine(carro3.Frear());
+            Console.WriteLine(carro3.Frear());
+
 
         }
     }
